@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_tokenAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SaveCelo.sol": "saveCelo"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ICelo.sol": {
+			"keccak256": "0x148571f9d8f426cf5704045b553de5d1a44d4f126cb68818fcb93b2bcef91f43",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://975a7b35dae2aa158ffecfc403a5ba99b04fed09cd3309d78684f8de227f76bf",
+				"dweb:/ipfs/QmfFvJfRqUvR4nGqUUxgzMnzmas4fWzYAwyoFSWLH9qXHx"
+			]
+		},
+		"contracts/SaveCelo.sol": {
+			"keccak256": "0x6a2a5385f116d3ac5396ec0776a6d9f4494d7a0101532ccd5eb3388911a2777b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://21eb32d7a18cc558e198bf46fff1ff2372f2557207c75f3d69b359eb5a2038f4",
+				"dweb:/ipfs/QmcgMRmrGTTeQcXcbUewiDAxR2m5DgeT6BYyFbaTotZn7Q"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SwapTokens.sol": "Swa"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SwapTokens.sol": {
+			"keccak256": "0x73ea5a912dff6b2bbfb7cefe97ba4a06a5de2f8d6ba9d3675c0208985ae0d61a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ab49aad0499b9e9903a1b8d78c551d66f4452ef2e65d4c6e20b6b80d7fe1b555",
+				"dweb:/ipfs/QmQQY3whKgqWQrzMkifTBbBQPb1Hk8UzjfMeXFjJPSBE9M"
+			]
+		}
+	},
+	"version": 1
+}
