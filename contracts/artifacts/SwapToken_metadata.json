@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.28+commit.7893614a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -57,9 +57,9 @@
 					},
 					{
 						"indexed": true,
-						"internalType": "address",
-						"name": "tokenAddress",
-						"type": "address"
+						"internalType": "enum SwapToken.Currency",
+						"name": "_currencyName",
+						"type": "uint8"
 					},
 					{
 						"indexed": false,
@@ -154,9 +154,9 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_tokenAddress",
-						"type": "address"
+						"internalType": "enum SwapToken.Currency",
+						"name": "_currencyName",
+						"type": "uint8"
 					},
 					{
 						"internalType": "uint256",
@@ -206,11 +206,11 @@
 			]
 		},
 		"contracts/SwapTokens.sol": {
-			"keccak256": "0xd2a4826180cc4a2b2efb491ccd5c41d577575288b2c3ce489db485da9c65a4cd",
+			"keccak256": "0xfaa11d61d0333ddbdf72c494947c97913bad26227d62cff1147a2789730dc725",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://75ed07607bc2ccc9008f37e6eafc0f34f5d1bce6b30ffa5fd0dd449a3414e958",
-				"dweb:/ipfs/QmWHXEeCFyzpbUnBSmtefyCtWTw3zzsZks2AmwrDNzGc21"
+				"bzz-raw://0a3d98c184bd400fdef85ccec6e762beb4b16ffc8f92d1b3c498b3481c257706",
+				"dweb:/ipfs/QmZAJAzJNWvGKgkbQMtkkr8sWL9XGjeF5VcDjYY5A1C7fF"
 			]
 		}
 	},

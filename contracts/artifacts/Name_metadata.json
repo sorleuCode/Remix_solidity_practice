@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.28+commit.7893614a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SwapTokens.sol": "Name"
+			"contracts/MultisigWallet.sol": "Name"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/SwapTokens.sol": {
-			"keccak256": "0xd038143048227f380a8fc48f7a976c0f5351e2e3465496c5272d5b1b240eacba",
+		"contracts/MultisigWallet.sol": {
+			"keccak256": "0x37ed40c49fd01a624428fe4d35487f9d5e10729f4f73df9a18dee2ad510841ef",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5e44a870387bc78ac64780ee26875c03e72b8b0d7062e671b00aa0a6fd95ae54",
-				"dweb:/ipfs/Qmd9QGvTEL6r2powgsh3nWxDxQ2aHHZFDZ3JYkQiiJUZ5h"
+				"bzz-raw://0de83bf798d1fa12469a9b800743a38a39cf004f2b75b90385e8d85c7cdcd898",
+				"dweb:/ipfs/QmW4MWMqMEwTU4Nj9ghDryXESKGhRZEAbXUSr53BEMncw7"
 			]
 		}
 	},
