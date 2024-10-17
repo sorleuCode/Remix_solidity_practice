@@ -56,7 +56,7 @@
 						"type": "address"
 					},
 					{
-						"indexed": false,
+						"indexed": true,
 						"internalType": "address",
 						"name": "newOwner",
 						"type": "address"
@@ -101,19 +101,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_newOwner",
-						"type": "address"
-					}
-				],
-				"name": "TransferOwnership",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -224,9 +211,22 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
+						"name": "_newOwner",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
 						"name": "_index",
-						"type": "uint256"
+						"type": "uint8"
 					}
 				],
 				"name": "withdrawStake",
@@ -277,11 +277,11 @@
 			]
 		},
 		"contracts/StakeXFI.sol": {
-			"keccak256": "0x687451cd92285634609722a95b868658ee384d92a44590f9e3127312d36d0f81",
+			"keccak256": "0x0c521b9a4ed6f9d6d5632bee87b62beedbf952f61acc089c800ed3de08e217e4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b36c50cd00c975421039823578d6a3cf136a4ba11ff00d5f49bb835927edd155",
-				"dweb:/ipfs/QmdwnBHD1wGKMpmLjA5GGw1C4FK4YQ1ydJbFQ61JVtHE9N"
+				"bzz-raw://bb85d6b59a4b77b86ab55bdf4cd646bc43c5e6e1aa20a3b6c632b7f080b94f05",
+				"dweb:/ipfs/QmT2ubFNtoaYrKZYLxEvN2aHxMAcwKRGK3uh4t1ex2QssM"
 			]
 		}
 	},
